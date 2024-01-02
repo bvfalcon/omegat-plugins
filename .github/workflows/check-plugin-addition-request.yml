@@ -16,13 +16,13 @@ jobs:
           lfs: true
       - name: get changed jar files
         id: changed-jar-files
-        uses: tj-actions/changed-files@v35
+        uses: tj-actions/changed-files@v41
         with:
           files: |
             plugins/**/*.jar
       - name: get changed files
         id: changed-sign-files
-        uses: tj-actions/changed-files@v35
+        uses: tj-actions/changed-files@v41
         with:
           files: |
             plugins/**/*.jar.asc

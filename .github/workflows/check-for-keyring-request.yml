@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 1
       - name: get added keyring
         id: changed-files
-        uses: tj-actions/changed-files@v35
+        uses: tj-actions/changed-files@v41
         with:
           files: |
             keyring/*
